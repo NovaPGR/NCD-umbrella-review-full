@@ -1,0 +1,30 @@
+outcome,model,subject,paper,model_type ,finding ,period,tblnum,number_of_studies,number_of_participants,effect,ci_lo,ci_hi,i_squared,p_value
+Perioprative VTE ,a,VTE,Baddedrine et al (2022),Random Effects ,Risk,,3,2,579,0.77,0.04,14.01,0.39,n/a
+Tobacco use ,a,Substance Use,Cotania et al (2022),Random Effects ,odds,Current ,7,9,n/a,1.58,1.44,1.73,n/a,n/a
+Tobacco use disorder ,b,Substance Use,Cotania et al (2022),Random Effects ,odds,Current ,7,2,n/a,1.29,0.79,2.11,n/a,n/a
+Alcohol use,c,Substance Use,Cotania et al (2022),Random Effects ,odds,Current ,7,6,n/a,1.03,0.93,1.15,n/a,n/a
+Alcohol use disorder ,d,Substance Use,Cotania et al (2022),Random Effects ,odds,Current ,7,4,n/a,1.01,0.69,1.28,n/a,n/a
+Substance use (all) ,e,Substance Use,Cotania et al (2022),Random Effects ,odds,lifetime ,7,7,n/a,1.38,1.28,1.49,n/a,n/a
+Substance use (excluding tobacco and alcohol),f,Substance Use,Cotania et al (2022),Random Effects ,odds,Current ,7,3,n/a,0.98,0.7,1.37,n/a,n/a
+Use of specific substances (excluding tobacco and Alcohol),g,Substance Use,Cotania et al (2022),Random Effects ,odds,Current ,7,22,n/a,2.11,1.77,2.51,n/a,n/a
+Substance use disorder (excluding tobacco and alcohol) ,h,Substance Use,Cotania et al (2022),Random Effects ,odds,Current ,7,3,n/a,1.06,0.8,1.4,n/a,n/a
+Transwomen vs cisgender men femoral neck BMD,a,bone mineral density ,Fighera et al (2019),Random Effects ,Change ,24m,5,3,258,0.02,-0.12,0.16,0.96,n/a
+Transwomen vs cisgender men femoral neck BMD,b,bone mineral density ,Fighera et al (2019),Random Effects ,Change ,12m,5,1,35,-0.06,-0.08,-0.06,n/a,n/a
+Transwomen vs cisgender men lumbar spine BMD,c,bone mineral density ,Fighera et al (2019),Random Effects ,Change ,24m,5,4,327,-0.01,-0.13,0.1,0.95,n/a
+Transwomen vs cisgender men lumbar spine BMD,d,bone mineral density ,Fighera et al (2019),Random Effects ,Change ,12m,5,1,35,-0.06,-0.08,-0.04,n/a,n/a
+Transwomen vs cisgender men total femur BMD,e,bone mineral density ,Fighera et al (2019),Random Effects ,Change ,24m,5,3,274,-0.08,-0.23,0.06,0.97,n/a
+Transwomen vs cisgender men total femur BMD,f,bone mineral density ,Fighera et al (2019),Random Effects ,Change ,12m,5,1,35,-0.74,-0.77,-0.71,n/a,n/a
+Transgender men vs cisgender women femoral neck BMD,g,bone mineral density ,Fighera et al (2019),Random Effects ,Change ,24m,5,2,170,0.05,-0.09,0.2,0.95,n/a
+Transgender men vs cisgender women lumbar spine BMD,h,bone mineral density ,Fighera et al (2019),Random Effects ,Change ,24m,5,2,170,-0.02,-0.06,0.03,0.19,n/a
+Transgender men vs cisgender women total femur BMD,i,bone mineral density ,Fighera et al (2019),Random Effects ,Change ,24m,5,1,100,0.01,-0.03,0.05,n/a,n/a
+Transgender people who experience cerebrovascular events,a,Cerebrovascular events (stroke) ,Ignacio et al (2022),Random Effects ,Change,,4,5,6438,0.02,0.01,0.02,0.62,n/a
+Diffrence in body weight (kg) in MtFs ,a,Weight/Obesity ,Klaver et al (2017),Random Effects ,Change,,6,4,n/a,1.8,0.24,3.35,0.93,n/a
+Diffrence in body fat (kg) in MtFs,b,Weight/Obesity ,Klaver et al (2017),Random Effects ,Change,,6,4,n/a,2.95,2.03,3.86,0.84,n/a
+Diffrence in Lean body mass (kg) in MtFs ,c,Weight/Obesity ,Klaver et al (2017),Random Effects ,Change,,6,3,n/a,-2.44,-2.76,-2.11,0,n/a
+VTE prevelance as a function of age ,a,VTE Risk ,Totoro et al (2021),Bubble plots ,Risk,,2,14,n/a,0.0063,0.0022,0.00104,n/a,0.0027
+VTE prevelance as a function of estrogen based HRT ,b,VTE Risk ,Totoro et al (2021),Bubble plots ,Risk,,2,12,n/a,0.0011,0.0006,0.0016,n/a,<0.0001
+All AMAB people on feminising HRT ,a,VTE Prevelance ,Totoro et al (2021),Random Effects ,Prevelance ,,1,17,1152,0.02,0.01,0.03,0.89,n/a
+Studies enrolling those over 37.5 years old,b,VTE Prevelance ,Totoro et al (2021),Random Effects ,Prevelance ,,1,6,3959,0.03,0.00,0.05,0.88,n/a
+Studies enrolling those below 37.5 years old,c,VTE Prevelance ,Totoro et al (2021),Random Effects ,Prevelance ,,1,8,2023,0.00,0.00,0.02,0.00,n/a
+Studies enrolling those on HRT for more than 53 months ,d,VTE Prevelance ,Totoro et al (2021),Random Effects ,Prevelance ,,1,6,3393,0.01,0.00,0.03,0.85,n/a
+Studies enrolling those on HRT for less than 53 months ,e,VTE Prevelance ,Totoro et al (2021),Random Effects ,Prevelance ,,1,6,1111,0.00,0.00,0.03,0.00,n/a
