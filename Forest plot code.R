@@ -38,8 +38,18 @@ kg <-
 substanceuse <- 
   subset(rrfp_cleaned,tblnum == 7)
 
-## VTE-prevelance Forest plot  
-pdf(file='vteprev.pdf') # Open PDF device with specific file name
+## Creating the meta objects 
+vteprev_meta <- metagen(lower = ci_lo, upper = ci_hi, studlab = outcome, data = vteprev, w.random=1, w.common=1, )
+periopvte_meta <- metagen(lower = ci_lo, upper = ci_hi, studlab = outcome, data = periopvte)
+cve_meta <- metagen(TE = effect,lower = ci_lo, upper = ci_hi, studlab = outcome, data = cve)
+bmd_meta <- metagen(lower = ci_lo, upper = ci_hi, studlab = outcome, data = deltabmd)
+kg_meta <- metagen(lower = ci_lo, upper = ci_hi, studlab = outcome, data = kg)
+substance_meta <- metagen(lower = ci_lo, upper = ci_hi, studlab = outcome, data = substanceuse)
+
+
+
+## VTE-prevalence Forest plot  
+png(file='vteprev.png') # Open PDF device with specific file name
 forest(vteprev_meta,
        common=F, random=F,overall=F,
        leftcols= c("outcome",
@@ -71,7 +81,7 @@ dev.off() # Turn the PDF device off
 
 
 ## Peroperative VTE Forest Plot 
-pdf(file='periopvte.pdf') # Open PDF device with specific file name
+png(file='periopvte.png') # Open PDF device with specific file name
 forest(periopvte_meta,
        common=F, random=F,overall=F,
        leftcols= c("outcome",
@@ -102,7 +112,7 @@ forest(periopvte_meta,
 dev.off() # Turn the PDF device off
 
 ## CVE Forest plot
-pdf(file='cve.pdf') # Open PDF device with specific file name
+png(file='cve.png') # Open PDF device with specific file name
 forest(cve_meta,
        common=F, random=F,overall=F,
        leftcols= c("outcome",
@@ -133,7 +143,7 @@ forest(cve_meta,
 dev.off() # Turn the PDF device off
 
 ## BMD Δ Forest plot 
-pdf(file='bmd.pdf') # Open PDF device with specific file name
+png(file='bmd.png') # Open PDF device with specific file name
 forest(bmd_meta,
        common=F, random=F,overall=F,
        at=seq(from=-0.8, to =0.8, by=0.2),
@@ -166,7 +176,7 @@ forest(bmd_meta,
 dev.off() # Turn the PDF device off
 
 ## Weight Change forest plot 
-pdf(file='kg.pdf') # Open PDF device with specific file name
+png (file='kg.png') # Open PDF device with specific file name
 forest(kg_meta,
        common=F, random=F,overall=F,
        leftcols= c("outcome",
@@ -197,7 +207,7 @@ forest(kg_meta,
 dev.off() # Turn the PDF device off
 
 ## Substance use forest plot 
-pdf(file='substance.pdf') # Open PDF device with specific file name
+png(file='substance.png') # Open PDF device with specific file name
 forest(substance_meta,
        common=F, random=F,overall=F,
        leftcols= c("outcome",
